@@ -55,7 +55,7 @@ class Ui(QtWidgets.QMainWindow,):
                         image[i][j] = codebook[labels[label_idx]]
                         label_idx += 1
                 return image
-            
+            self.UpdataData_4.setText("Compressing")
             plt.figure(2)   
             plt.clf()
             plt.axis('off')
